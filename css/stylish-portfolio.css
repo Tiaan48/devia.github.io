@@ -202,7 +202,7 @@ hr.small {
   width: 3px;
   background-color: #ffffff;
   left: 50%;
-  margin-left: -1.5px;
+  margin-left: 0;
 }
 .timeline .timeline-item {
   margin-bottom: 20px;
