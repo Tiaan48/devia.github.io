@@ -199,9 +199,9 @@ hr.small {
   bottom: 0;
   position: absolute;
   content: " ";
-  width: 3px;
+  width: 0;
   background-color: #ffffff;
-  left: 50%;
+  left: 0;
   margin-left: 0;
 }
 .timeline .timeline-item {
@@ -218,15 +218,15 @@ hr.small {
 }
 .timeline .timeline-item .timeline-badge {
   color: #fff;
-  width: 54px;
+  width: 100%;
   height: 54px;
   line-height: 52px;
   font-size: 22px;
   text-align: center;
   position: absolute;
   top: 18px;
-  left: 50%;
-  margin-left: -25px;
+  left: 0;
+  margin-left: 0;
   background-color: #8980fe;
   border: 3px solid #ffffff;
   z-index: 100;
@@ -260,7 +260,7 @@ hr.small {
   position: relative;
   width: 100%;
   float: left;
-  right: 16px;
+  right: 0;
   border: 1px solid #c0c0c0;
   background: #8980fe;
   border-radius: 2px;
@@ -295,11 +295,11 @@ hr.small {
 }
 .timeline .timeline-item:nth-child(even) .timeline-panel {
   float: right;
-  left: 16px;
+  left: 0;
 }
 .timeline .timeline-item:nth-child(even) .timeline-panel:before {
   border-left-width: 0;
-  border-right-width: 14px;
+  border-right-width: 0;
   left: 0;
   right: auto;
 }
@@ -313,7 +313,7 @@ hr.small {
   height: 3px;
   top: auto;
   bottom: 26px;
-  left: 56px;
+  left: 0;
   right: 0;
   width: 100%;
   margin-bottom: 20px;
@@ -342,7 +342,7 @@ hr.small {
 .timeline-horizontal .timeline-item .timeline-panel:before {
   top: auto;
   bottom: -16px;
-  left: 28px !important;
+  left: 0 !important;
   right: auto;
   border-right: 16px solid transparent !important;
   border-top: 16px solid #c0c0c0 !important;
@@ -356,7 +356,7 @@ hr.small {
 .timeline-horizontal .timeline-item .timeline-badge {
   top: auto;
   bottom: 0px;
-  left: 43px;
+  left: 0;
 }
 
 /* Portfolio */
