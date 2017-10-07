@@ -127,6 +127,9 @@ header h1 {
 .cd-timeline-img.cd-location {
   background: #32CD32;
 }
+.cd-timeline-img.cd-research {
+  background: #32CD32;
+}
 @media only screen and (min-width: 1170px) {
   .cd-timeline-img {
     width: 60px;
