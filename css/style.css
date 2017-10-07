@@ -29,8 +29,8 @@ header {
   background: #ffffff;
 }
 header h1 {
-  color: white;
-  font-size: 18px;
+  color: #8980fe;
+  font-size: 25px;
   font-size: 1.125rem;
 }
 @media only screen and (min-width: 1170px) {
@@ -59,7 +59,7 @@ header h1 {
   left: 18px;
   height: 100%;
   width: 4px;
-  background: #d7e4ed;
+  background: #ffffff;
 }
 @media only screen and (min-width: 1170px) {
   #cd-timeline {
@@ -106,7 +106,7 @@ header h1 {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  box-shadow: 0 0 0 4px black, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
 }
 .cd-timeline-img img {
   display: block;
@@ -125,7 +125,7 @@ header h1 {
   background: #c03b44;
 }
 .cd-timeline-img.cd-location {
-  background: #f0ca45;
+  background: #32CD32;
 }
 @media only screen and (min-width: 1170px) {
   .cd-timeline-img {
