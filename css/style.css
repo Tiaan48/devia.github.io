@@ -31,7 +31,7 @@ header {
 }
 header h1 {
   color: #8980fe;
-  font-size: 35px;
+  font-size: 25px;
   font-size: 2rem;
 }
 @media only screen and (min-width: 1170px) {
@@ -40,7 +40,7 @@ header h1 {
     line-height: 100px;
   }
   header h1 {
-    font-size: 30px;
+    font-size: 25px;
     font-size: 2rem;
   }
 }
