@@ -125,6 +125,7 @@ header h1 {
   background: #c03b44;
 }
 .cd-timeline-img.cd-location {
+  color: white;
   background: #8980fe;
 }
 .cd-timeline-img.cd-research {
