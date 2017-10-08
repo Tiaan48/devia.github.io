@@ -29,19 +29,19 @@ header {
   text-align: center;
   background: #ffffff;
 }
-header h1 {
+header h2 {
   color: #8980fe;
-  font-size: 25px;
-  font-size: 1.25rem;
+  font-size: 20px;
+  font-size: 1.12rem;
 }
 @media only screen and (min-width: 1170px) {
   header {
     height: 100px;
     line-height: 100px;
   }
-  header h1 {
-    font-size: 25px;
-    font-size: 1.25rem;
+  header h2 {
+    font-size: 20px;
+    font-size: 1.12rem;
   }
 }
 
