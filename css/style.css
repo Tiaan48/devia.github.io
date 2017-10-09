@@ -9,7 +9,7 @@ Modules - reusable parts of our design
   height: 50px;
   max-width: 1170px;
   margin: 0 auto;
-  background-color: #8980fe;
+  background-color: #2f2e30;
 }
 .cd-container::after {
   /* clearfix */
