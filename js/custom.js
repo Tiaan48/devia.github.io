@@ -64,7 +64,8 @@ jQuery(document).ready(function($){
 var originalConfig =     {
     "type":"ring",
     "title":{
-      "text":"Drilldown Pie"
+      "text":"ICO Structure"
+	color: "#8980fe"
     },
     "plot":{
         "detach":false,
