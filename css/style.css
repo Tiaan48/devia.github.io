@@ -74,7 +74,7 @@ header h2 {
 }
 
 .cd-timeline-block {
-  position: absolute;
+  position: relative;
   margin: 2em 0;
 }
 .cd-timeline-block:after {
@@ -212,11 +212,11 @@ header h2 {
 }
 .cd-timeline-content {
   position: relative;
-  width: 50px;
+  width: 25px;
   margin-left: 60px;
   background: #ffffff;
   border-radius: 0.25em;
-  padding: 1em;
+  padding: 0.5em;
   box-shadow: 0 3px 0 #d7e4ed;
 }
 .cd-timeline-content:after {
