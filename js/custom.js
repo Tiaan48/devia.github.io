@@ -62,9 +62,7 @@ jQuery(document).ready(function($){
 
 // ICO behaviour
 var originalConfig =     {
-    "type":"ring",
-    "title":{
-      "text":"ICO Structure"
+    "type":"ring"
     },
     "plot":{
         "detach":false,
