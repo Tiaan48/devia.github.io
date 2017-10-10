@@ -101,7 +101,7 @@ header h2 {
 }
 
 .cd-timeline-img {
-  position: relative;
+  position: absolute;
   top: 0;
   left: 0;
   width: 40px;
