@@ -74,7 +74,7 @@ header h2 {
 }
 
 .cd-timeline-block {
-  position: relative;
+  position: absolute;
   margin: 2em 0;
 }
 .cd-timeline-block:after {
