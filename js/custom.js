@@ -65,7 +65,6 @@ var originalConfig =     {
     "type":"ring",
     "title":{
       "text":"ICO Structure"
-	color: "#8980fe"
     },
     "plot":{
         "detach":false,
