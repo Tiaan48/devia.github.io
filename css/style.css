@@ -212,9 +212,9 @@ header h2 {
 }
 .cd-timeline-content {
   position: relative;
-  width: 60px;
+  width: 50px;
   margin-left: 60px;
-  background: white;
+  background: #8980fe;
   border-radius: 0.25em;
   padding: 1em;
   box-shadow: 0 3px 0 #d7e4ed;
