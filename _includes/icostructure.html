@@ -6,56 +6,32 @@
 		<hr class="small">
 		</header>
 			
-			<div class="terms__content">
-        <div class="terms__content__left">
-          <div class="terms__content__chart-title">
-            1 Billion Tokens Issued
-          </div>
-          <div class="terms__content__chart">
-            <img src="https://s3.amazonaws.com/civic-token-sale-js/pie.png" data-src-2x="https://s3.amazonaws.com/civic-token-sale-js/pie@2x.png" alt="">
-            <ul class="terms__content__chart__legend">
-              <li>
-                Company Tokens
-              </li>
-              <li>
-                Partner Tokens
-              </li>
-              <li>
-                Crowd Sale Tokens
-              </li>
-              <li>
-                Cover tokensale costs
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="terms__content__right">
-          <div class="terms__content__descr">
-            <div class="terms__content__text">
-              Maximum cap on crowdsale: <b>$33 million</b>
-            </div>
-            <div class="terms__content__text">
-              Total token supply: <b>1 billion (1,000,000,000) CVC</b>, of which:
-            </div>
-            <div class="terms__content__text">
-              <ul>
-                <li>
-                  <b>33%</b> sold in the tokensale
-                </li>
-                <li>
-                  <b>33%</b> retained by Civic
-                </li>
-                <li>
-                  <b>33%</b> allocated for distribution to incentivize participation in the
-                  ecosystem
-                </li>
-                <li>
-                  <b>1%</b> to cover tokensale costs
-                </li>
-              </ul>
-              Ethereum ERC20 token
-              <br> Purchase methods accepted: BTC and ETH
-            </div>
-          </div>
-        </div>
-      </div>
+  <head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load("current", {packages:["corechart"]});
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Task', 'Hours per Day'],
+          ['Work',     11],
+          ['Eat',      2],
+          ['Commute',  2],
+          ['Watch TV', 2],
+          ['Sleep',    7]
+        ]);
+
+        var options = {
+          title: 'My Daily Activities',
+          pieHole: 0.4,
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('donutchart'));
+        chart.draw(data, options);
+      }
+    </script>
+  </head>
+  <body>
+    <div id="donutchart" style="width: 900px; height: 500px;"></div>
+  </body>
+</html>
