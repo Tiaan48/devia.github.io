@@ -82,7 +82,7 @@ var originalConfig =     {
             }
         },
         "value-box":{
-            "color":"#FFF",
+            "color":"#8980fe",
             "text":"%t",
             "font-weight":"none",
             "font-size":14
@@ -90,33 +90,33 @@ var originalConfig =     {
     },
     "series":[
         {
-            "values":[69],
+            "values":[15],
             "background-color":"#F44336",
-            "text":"Visualization<br>Tools",
+            "text":"Devia",
             "data-id":"vt"
         },
         {
-            "values":[69],
+            "values":[5],
             "background-color":"#009688",
-            "text":"Site<br>Performance",
+            "text":"Advisors",
             "data-id":"sp"
         },
         {
-            "values":[69],
+            "values":[38],
             "background-color":"#00BCD4",
-            "text":"Dev<br>Tools",
+            "text":"Token Sale",
             "data-id":"dt"
         },
         {
-            "values":[69],
+            "values":[38],
             "background-color":"#03A9F4",
-            "text":"Security<br>Tools",
+            "text":"Contributors",
             "data-id":"st"
         },
         {
-            "values":[69],
+            "values":[4],
             "background-color":"#673AB7",           
-            "text":"Data<br>Management",
+            "text":"KickICO",
             "data-id":"dm"
         }
     ]
