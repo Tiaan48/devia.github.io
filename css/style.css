@@ -60,7 +60,7 @@ header h2 {
   left: 18px;
   height: 100%;
   width: 4px;
-  background: #2f2e30;
+  background: #000000;
 }
 @media only screen and (min-width: 1170px) {
   #cd-timeline {
@@ -214,7 +214,7 @@ header h2 {
   position: relative;
   width: 25px;
   margin-left: 60px;
-  background: #ffffff;
+  background: #000000;
   border-radius: 0.25em;
   padding: 0.5em;
   box-shadow: 0 3px 0 #d7e4ed;
