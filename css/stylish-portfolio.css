@@ -16,7 +16,7 @@ body {
 }
 section {
     height: 60px;
-    background-color: #8980fe;
+    background-color: #2f2e30;
 }
 
 body {
@@ -180,7 +180,7 @@ hr.small {
 
 .services {
     padding: 50px 0; 
-    background-color: #8980fe;
+    background-color: #2f2e30;
 }
 
 .service-item {
@@ -217,7 +217,7 @@ hr.small {
 
 .call-to-action {
     padding: 50px 0;
-    background-color: #8980fe;
+    background-color: #2f2e30;
 }
 
 .call-to-action .btn {
