@@ -15,17 +15,15 @@
       function drawChart() {
         var data = google.visualization.arrayToDataTable([
           ['Distribution', 'Percentage'],
-          ['Devia',     15],
-          ['Advisors',      3],
-          ['Token Sale',  39],
-          ['Ecosystem', 39],
-          ['KickICO',    4]
+          ['Team',     2],
+          ['ICO',      8],
+          ['Ecosystem',  90]
         ]);
 
         var options = {
-          title: 'We will issue a total of 1000,000,000,000 (1 Billion Fixed Supply) DVA tokens',
+          title: 'We will issue a total of 22,512,800 (Linked to GDP of Africa) UnA',
           pieHole: 0.4,
-	  colors: ['#8220F1', '#8949A3', '#8980fe', '#5963DE', '#E47D32']
+	  colors: ['#ff0000', '#ffff00', '#008000']
         };
 
         var chart = new google.visualization.PieChart(document.getElementById('donutchart'));
