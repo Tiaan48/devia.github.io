@@ -173,14 +173,14 @@ hr.small {
 
 .about {
     padding: 50px 0;
-    background-color: #ffffff;
+    background-color: #FFB612;
 }
 
 /* Services */
 
 .services {
     padding: 50px 0; 
-    background-color: #2f2e30;
+    background-color: #007A4D;
 }
 
 .service-item {
@@ -217,7 +217,7 @@ hr.small {
 
 .call-to-action {
     padding: 50px 0;
-    background-color: #2f2e30;
+    background-color: #FFB612;
 }
 
 .call-to-action .btn {
