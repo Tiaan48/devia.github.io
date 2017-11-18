@@ -9,7 +9,7 @@ Modules - reusable parts of our design
   height: 50px;
   max-width: 1170px;
   margin: 0 auto;
-  background-color: #002395;
+  background-color: #ffffff;
 }
 .cd-container::after {
   /* clearfix */
@@ -27,7 +27,7 @@ header {
   height: 50px;
   line-height: 200px;
   text-align: center;
-  background: #002395;
+  background: #ffffff;
 }
 header h2 {
   color: #ffffff;
@@ -50,7 +50,7 @@ header h2 {
   padding: 2em 0;
   margin-top: 2em;
   margin-bottom: 2em;
-  background-color: #002395;
+  background-color: #ffffff;
 }
 #cd-timeline::before {
   /* this is the vertical line */
@@ -60,7 +60,7 @@ header h2 {
   left: 18px;
   height: 100%;
   width: 4px;
-  background: ##a9a9a9;
+  background: #808080;
 }
 @media only screen and (min-width: 1170px) {
   #cd-timeline {
