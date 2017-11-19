@@ -176,6 +176,13 @@ hr.small {
     background-color: #FFB612;
 }
 
+/* Economics */
+
+.economics {
+    padding: 50px 0;
+    background-color: #002395;
+}
+
 /* Services */
 
 .services {
