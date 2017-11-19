@@ -1,6 +1,5 @@
-*,
-*::before,
-*::after {
+::before,
+::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -141,7 +140,7 @@ time {
 /* GENERAL MEDIA QUERIES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1200px) {
   .timeline ul li div {
     width: 250px;
   }
